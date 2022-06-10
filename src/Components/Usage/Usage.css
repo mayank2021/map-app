@@ -1,0 +1,84 @@
+.usage-main--container{
+    display: flex;
+    width: 98%;
+    margin: 8px 10px;
+    border: 4px solid #646FD4;
+    padding: 35px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.usage-left--container{
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.usage-right--container{
+display: flex;
+width: 94%;
+}
+
+.bar-line--container-one{
+width: 36%;
+}
+
+.bar-line-one{
+background-color: #242F9B;
+height: 12px;
+}
+.bar-line-two{
+    background-color: #646FD4;
+    height: 12px;
+}
+.bar-line-three{
+    background-color: #9BA3EB;
+    height: 12px;
+}
+
+.bar-line-four{
+    background-color: #DBDFFD;
+    height: 12px;
+}
+
+.bar-data--container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.bar-line--container-two{
+    width: 24%;
+}
+.bar-line--container-three{
+    width: 20%;
+}
+    
+.bar-line--container-four{
+    width: 20%;
+}
+
+.chart-dot{
+    width: 10px;
+    height: 10px;
+}
+      
+.chart-dot--one{
+background-color: #242F9B;   
+}
+.chart-dot--two{
+background-color: #646FD4;
+}
+.chart-dot--three{
+background-color: #9BA3EB;
+}
+.chart-dot--four{
+background-color: #DBDFFD;
+}
+
+.bar-data--container:nth-child(2) div{
+    margin-left: 10px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.7);
+}
